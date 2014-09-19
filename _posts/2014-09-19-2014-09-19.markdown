@@ -1,0 +1,18 @@
+---
+layout: post
+title: "2014-09-19"
+---
+
+Lessons learned:  
+
+* If vsftpd doesn't work for your local user, change this line on /etc/vsftpd.conf
+
+	>pam_service_name=ftp
+
+* Bash variable declaration strict to no space before `=`
+
+	>PS1='\u@\h \w \$'
+
+* Compressing Javascript with CompressJS
+
+* Bootstrap grid system is __amazing__
